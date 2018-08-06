@@ -1,0 +1,295 @@
+#signal-1{
+    height:32px;
+    width:100%;
+    display:flex;
+    color:black;
+    justify-content:space-between;
+    font-weight:600;
+    font-size:14px;
+}
+#signal-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*    信号start     */
+#signal-left div{
+    margin-left:4px;
+}
+
+
+#signal-center{
+    width:50px;
+    height:32px;
+    margin-left: 10px;
+
+}
+#signal-right{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signal-area{
+    height:18px;
+    width:30px;
+    display:flex;
+    align-items:flex-end;
+    margin-bottom: 6px;
+
+}
+
+#signal-area div{
+    width:4px;
+    border-radius:1px;
+    margin-left:3px;
+
+
+
+
+
+
+}
+#signal-area div:nth-child(1){
+    height:4px;
+}
+#signal-area div:nth-child(2) {
+    height: 7px;
+}
+#signal-area div:nth-child(3){
+    height:10px;
+}
+#signal-area div:nth-child(4){
+    height:14px;
+}
+.signal-ok{
+    background-color:white;
+}
+.signal-lose{
+    background-color: gray;
+}
+/*        信号end       */
+/*        电池start     */
+#battery{
+    width:40px;
+    height:18px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+
+}
+#battery-body{
+    height:12px;
+    width:32px;
+    border:1px solid whitesmoke;
+    border-radius:1px;
+}
+#battery-header{
+    height:6px;
+    width:2px;
+    background-color: whitesmoke;
+    border-radius: 0px 1px 1px 0px;
+}
+#battery-core{
+    height:10px;
+    width:26px;
+    background-color: lawngreen;
+    margin:1px;
+}
+
+@keyframes charge{
+    0%{
+        width:1px;
+        background-color: crimson;
+    }
+    20%{
+        width:6px;
+        background-color: yellow;
+    }
+    80%{
+        width:24px;
+        background-color: lawngreen;
+    }
+    100%{
+        width:30px;
+        background-color: lawngreen;
+    }
+
+}
+.charging{
+    animation:charge 6s linear infinite;
+}
+
+
+
+#title{
+    height:50px;
+    width:100%;
+    display:flex;
+    flex-flow: nowrap;
+    color: black;
+    font-size: 21px;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+#kong{
+    height:50px;
+    width: 120px;
+    line-height: 50px;
+    display: flex;
+    flex-flow: nowrap;
+
+
+
+}
+.kong-left{
+    height: 35px;
+    width: 28px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.kong-right{
+    height: 35px;
+    width: 70px;
+    line-height: 35px;
+
+
+}
+
+
+#wei{
+    height:50px;
+    width: 100px;
+    /*margin-top: 7px;*/
+    margin-right:78px;
+
+
+
+}
+#jia{
+    height:25px;
+    width: 25px;
+    margin-top: 7px;
+    background-image: url(../neirong/拍摄.svg);
+    background-size: contain;;
+    margin-right: 7px;
+    position: relative;
+}
+#dada{
+    height: 82px;
+    width: 100%;
+    flex-flow: column;
+    background-color: gainsboro;
+    opacity:.7;
+    float: top;
+}
+.picture{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+
+}
+.picture-small{
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    display: flex;
+    flex-flow: nowrap;
+}
+.Davis{
+    height: 80px;
+    width: 80px;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    color: black;
+
+}
+.picture-tou{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-size: cover;
+
+}
+.lie{
+    height: 250px;
+    width: 100%;
+    flex-flow: nowrap;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+
+}
+.tou{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.nei{
+    height: 240px;
+    width: 310px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 5px;
+
+
+}
+.name{
+    height: 25px;
+    width: 120px;
+    line-height: 25px;
+    font-size: 18px;
+   color: #2068b2;
+    font-weight: 600;
+}
+.hua{
+    height: 30px;
+    width: 320px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+
+
+}
+.tuu{
+    height: 150px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+
+}
+.di{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.di-left{
+    font-size: 14px;
+    color: gray;
+    margin-top: 4px;
+}
+.di-right{
+    height: 22px;
+    width: 22px;
+    margin-top: 3px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 8px;
+
+}

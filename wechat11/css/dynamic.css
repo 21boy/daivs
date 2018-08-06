@@ -1,0 +1,74 @@
+#dynamic{
+   flex:1;
+    width:100%;
+    background: whitesmoke;
+    overflow: scroll;
+
+
+}
+.chat-item{
+    height:62px;
+    width:98%;
+    display:flex;
+    align-items: center;
+    margin:0 auto;
+    border:1px solid gainsboro;
+
+}
+.item-left{
+    height:50px;
+    width:50px;
+    background-size: cover;
+    background-position: center;
+}
+.item-right{
+    margin-left: 10px;
+    height:50px;
+    flex: 1;
+}
+.content-top{
+    height:30px;
+    display:flex;
+    justify-content: flex-end;
+
+}
+.nickname{
+    height: 30px;
+    flex: 1;
+    color: #313131;
+    font-size: 18px;
+
+}
+.time{
+    height:30px;
+    width:80px;
+    font-size: 12px;
+    color:gray;
+    text-align: right;
+
+
+}
+.content-bottom{
+    height:20px;
+    display:flex;
+    justify-content: flex-end;
+}
+.content-text{
+    height:20px;
+    color:#8a8a8a;
+    flex: 1;
+    font-size: 14px;
+}
+.content-redio{
+    height:20px;
+    color:crimson;
+    flex: 1;
+    font-size: 14px;
+
+}
+.silence{
+    height:20px;
+    width:20px;
+    background-image: url(../neirong/免打扰.png);
+    background-size: cover;
+}

@@ -1,0 +1,98 @@
+#menu{
+    height:60px;
+    width:100%;
+    background: whitesmoke;
+    display: flex;
+    border:1px solid gainsboro;
+
+}
+.menu-type{
+    height:59px;
+    width:25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    opacity: 0.8;
+
+
+
+}
+.type-top1{
+    height:32px;
+    width:32px;
+    background-image: url(../neirong/sdsd.png);
+    background-size: cover;
+    background-position: center;
+   margin: 0 auto;
+
+
+}
+.type-bottom1{
+    height: 15px;
+    width:45px;
+    font-size: 13px;
+   line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+
+
+
+}
+.type-top2{
+    height:32px;
+    width:32px;
+    background-image: url(../neirong/通讯录.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.type-bottom2{
+    height: 15px;
+    width:45px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+
+
+}
+.type-top3{
+    height:32px;
+    width:32px;
+    background-image: url(../neirong/发现.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.type-bottom3{
+    height: 15px;
+    width:45px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.type-top4{
+    height:32px;
+    width:32px;
+    background-image: url(../neirong/我.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.type-bottom4{
+    height: 15px;
+    width:45px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+
+
+}
